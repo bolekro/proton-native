@@ -15,16 +15,17 @@
       "prettier --single-quote --trailing-comma es5 --write 'src/**/*.js' 'examples/*.js' './**/*.md' Demo.js",
     "build": "babel src -d bin",
     "pub": "babel src -d bin && npm publish",
-    "precommit": "lint-staged"
+    "precommit": "lint-staged",
+    "postinstall": "babel src -d bin"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kusti8/proton-native.git"
+    "url": "git+https://github.com/bolekro/proton-native.git"
   },
   "author": "Gustav Hansen <kusti8@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kusti8/proton-native/issues"
+    "url": "https://github.com/bolekro/proton-native/issues"
   },
   "homepage": "https://proton-native.js.org",
   "dependencies": {
