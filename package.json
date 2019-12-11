@@ -33,7 +33,7 @@
     "libui-node": "^0.2.1",
     "prop-types": "^15.6.1",
     "react": "^16.8.2",
-    "react-reconciler": "^0.20.0",
+    "react-reconciler": "^0.21.0",
     "svg-path-parser": "^1.1.0"
   },
   "devDependencies": {
